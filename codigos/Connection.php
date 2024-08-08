@@ -24,7 +24,7 @@ class Connection
            
         ];
         try {
-            $dsn ='pgsql:host=localhost;port=5432;dbname=senac';
+            $dsn ='pgsql:host=localhost;port=5432;dbname=ativdadeSC';
 
             static::$pdo = new PDO($dsn,'senaccurso','senaccurso2',$options);
 
